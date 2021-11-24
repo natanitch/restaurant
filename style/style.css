@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1105px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #252B42;
+}
+
+.header, 
+footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+
+.header{
+ margin: 40px 105px 40px 90px;
+}
+
+.nav-li{
+  display: inline-block;
+}
+
+.nav-li:not(:last-of-type){
+  margin-right: 90px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #FA4A0C;
+}
+
+.app {
+  background: url("../img/table with food dishes.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 56px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 80px 0 162px;
+}
+
+.app-pretitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.app-text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  margin-bottom: 54px;
+}
+
+button {
+  width: 236px;
+  height: 68px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  background: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+}
+
+button:last-of-type {
+  margin-left: 67px;
+}
+
+button:hover,
+button:active {
+  background-color: #FA4A0C;
+  border: #FA4A0C;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.create-account,
+.varieties {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-account{
+  margin-top: 62px;
+}
+
+.varieties {
+  margin-top: 108px;
+}
+.create-account-pretitle,
+.varieties-pretitle{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+}
+
+.create-account-title,
+.varieties-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  max-width: 568px;
+  margin: 17px auto;
+}
+
+.create-account-text,
+.varieties-text {
+  color: #737373;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  max-width: 467px;
+}
+
+img .create-account,
+img .varieties{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 40px;
+}
+
+.order {
+  background: url("../img/bags\ and\ buns.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 141px 290px 130px;
+  margin-top: 160px;
+}
+
+.order-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.order-text {
+  margin-top:20px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  margin-bottom: 59px;
+}
+
+.order-btn {
+  width: 142px;
+  height: 64px; 
+  border-radius: 10px;
+  padding: 18px 31px;
+  margin: 0 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.order-btn:last-of-type {
+  width: 173px;
+  height: 60px;
+  padding: 16px 45px;
+  box-sizing: border-box;
+  margin-left: 16px;
+}
+
+footer{
+    margin: 115px 115px 90px 130px; 
+}
